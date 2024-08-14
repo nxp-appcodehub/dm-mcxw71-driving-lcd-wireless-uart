@@ -1,4 +1,4 @@
-Package:              dm-mcx-wireless-uart-leds
+Package:              dm-mcxw71-driving-lcd-wireless-uart
 Version:              1.0
 Outgoing License:     LA_OPT_NXP_Software_License v56 April 2024 - Additional Distribution License granted, license in Section 2.3 applies 
 License file:         License.txt
