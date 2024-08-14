@@ -1,0 +1,29 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="demo" format="projectfile" versionSchema="1.0.0" name="MCXW71 driving LCD wireless UART" uuid="6d955389-f28f-4603-8c06-b26ac4129325">
+    <display_title>
+        Driving LCD-PAR-S035 using LVGL on FRM-MCXW71 board
+    </display_title>
+    <overview>
+        <![CDATA[allows the user to interact with the device through a serial terminal and also it can be possible to see the commands pressed in the LCD through the IoT Toolbox using a Smartphone.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXW71"></hw>
+        <hw id="FRDM-MCXW7X"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="display"></peripheral>
+        <peripheral name="i2c"></peripheral>
+        <peripheral name="spi"></peripheral>
+        <peripheral name="uart"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+        <category name="industrial"></category>
+        <category name="wireless_connectivity"></category>
+    </categories>
+</data:item>

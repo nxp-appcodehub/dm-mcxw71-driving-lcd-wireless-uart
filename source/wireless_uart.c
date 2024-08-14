@@ -128,18 +128,14 @@ extern uint8_t current_timer_ble[10];
 extern uint8_t current_date_ble[20];
 
 
-uint8_t timer_ble[10];
-uint8_t date_ble[20];
-
-
-uint8_t vec_welcome[70] = "\r\n*=======Kitchen Counter=======*\r\n";
-uint8_t vec_set_btn[70] = "\r\nSet button was pressed\r\n";
-uint8_t vec_reset_btn[70] = "\r\nReset button was pressed\r\n";
-uint8_t vec_start_btn[70] = "\r\nStart button was pressed\r\n";
-uint8_t vec_stop_btn[70] = "\r\nStop button was pressed\r\n";
-uint8_t vec_setdate_btn[70] = "\r\nthe date was set to: ";
-uint8_t vec_timer_btn[70] = "\r\nthe timer was set to: ";
-uint8_t vec_timerInit_btn[90] = "\r\nthe timer was stopped, press the RESET if you want to re-start the counter\r\n";
+uint8_t vec_welcome[30] = "\r\n*====Kitchen Counter====*\r\n";
+uint8_t vec_set_btn[30] = "\r\nSet button was pressed\r\n";
+uint8_t vec_reset_btn[30] = "\r\nReset button was pressed\r\n";
+uint8_t vec_start_btn[30] = "\r\nStart button was pressed\r\n";
+uint8_t vec_stop_btn[30] = "\r\nStop button was pressed\r\n";
+uint8_t vec_setdate_btn[40] = "\r\nthe date was set to: ";
+uint8_t vec_timer_btn[40] = "\r\nthe timer was set to: ";
+uint8_t vec_timerInit_btn[80] = "\r\nthe timer was stopped, press the RESET if you want to re-start the counter\r\n";
 
 
 /************************************************************************************
@@ -1924,55 +1920,51 @@ void LVGL_TimerCallback()
 	}
 void LVGL_init_demo()
 {
-			BleApp_SendUartStream(&vec_welcome[0], 70U);
+			BleApp_SendUartStream(&vec_welcome[0], 30U);
 }
 void LVGL_btn(void)
 {
-
-
-
 	//display
 	                if(set_btn == 1)
 	                {
-	                	BleApp_SendUartStream(&vec_set_btn[0], 70U);
+	                	BleApp_SendUartStream(&vec_set_btn[0], 30U);
 	                	set_btn = 0;
 	                }
 	                else if(reset_btn == 1)
 					{
-	                	BleApp_SendUartStream(&vec_reset_btn[0], 70U);
+	                	BleApp_SendUartStream(&vec_reset_btn[0], 30U);
 	                	reset_btn = 0;
 					}
 	                else if(start_btn == 1)
 					{
-	                	BleApp_SendUartStream(&vec_start_btn[0], 70U);
+	                	BleApp_SendUartStream(&vec_start_btn[0], 30U);
 
-	                	//BleApp_SendUartStream(&vec_timer_msg[0], 70U);
 	                	start_btn = 0;
-	                	//timer = 1;
+
 
 					}
 	                else if(stop_btn == 1)
 					{
-	                	BleApp_SendUartStream(&vec_stop_btn[0], 70U);
+	                	BleApp_SendUartStream(&vec_stop_btn[0], 30U);
 	                	stop_btn = 0;
 					}
 	                else if(set_date_btn == 1)
 	                {
-	                							vec_setdate_btn[23]= '[';
-	                							vec_setdate_btn[24]= current_date_ble[0];
-	                							vec_setdate_btn[25]= current_date_ble[1];
-	                							vec_setdate_btn[26]= current_date_ble[2];
-	                							vec_setdate_btn[27]= current_date_ble[3];
-	                							vec_setdate_btn[28]= '/';
-	                							vec_setdate_btn[29]= current_date_ble[5];
-	                							vec_setdate_btn[30]= current_date_ble[6];
-	                							vec_setdate_btn[31]= '/';
-	                							vec_setdate_btn[32]= current_date_ble[8];
-	                							vec_setdate_btn[33]= current_date_ble[9];
-	                							vec_setdate_btn[34]= ']';
+	                	vec_setdate_btn[23]= '[';
+	                	vec_setdate_btn[24]= current_date_ble[0];
+	                	vec_setdate_btn[25]= current_date_ble[1];
+	                	vec_setdate_btn[26]= current_date_ble[2];
+	                	vec_setdate_btn[27]= current_date_ble[3];
+	                	vec_setdate_btn[28]= '/';
+	                	vec_setdate_btn[29]= current_date_ble[5];
+	                	vec_setdate_btn[30]= current_date_ble[6];
+	                	vec_setdate_btn[31]= '/';
+	                	vec_setdate_btn[32]= current_date_ble[8];
+	                	vec_setdate_btn[33]= current_date_ble[9];
+	                	vec_setdate_btn[34]= ']';
 
-	                		                	BleApp_SendUartStream(&vec_setdate_btn[0], 70U);
-	                		                	set_date_btn = 0;
+	                	BleApp_SendUartStream(&vec_setdate_btn[0], 40U);
+	                	set_date_btn = 0;
 	                }
                      else if(set_timer_btn == 1)
 	                {
@@ -1990,12 +1982,12 @@ void LVGL_btn(void)
 	                	vec_timer_btn[31]= current_timer_ble[5];
 	                	vec_timer_btn[32]= ']';
 
-	                	BleApp_SendUartStream(&vec_timer_btn[0], 70U);
+	                	BleApp_SendUartStream(&vec_timer_btn[0], 40U);
 	                	set_timer_btn = 0;
 	                }
 	                else if(timer_init == 1)
 	                {
-	                	BleApp_SendUartStream(&vec_timerInit_btn[0], 90U);
+	                	BleApp_SendUartStream(&vec_timerInit_btn[0], 80U);
 	                	timer_init = 0;
 	                }
 
