@@ -1,18 +1,20 @@
 Package:              dm-mcxw71-driving-lcd-wireless-uart
 Version:              1.0
-Outgoing License:     LA_OPT_NXP_Software_License v56 April 2024 - Additional Distribution License granted, license in Section 2.3 applies 
+Outgoing License:     LA_OPT_Online Code Hosting NXP_Software_License - v1.2 October 2023 
 License file:         License.txt
 Description:          allows the user to interact with the device through a serial terminal and also it can be possible to see the commands pressed in the LCD 
 		      throught the IoT Toolbox using a Smartphone.
 Release location:     https://github.com/nxp-appcodehub/dm-mcx-wireless-uart-leds
 Origin:               NXP (proprietary)
                       NXP (BSD-3-Clause)    
-                      ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0 
-                      ARM Mbed Crypto library v3.4.0 (Apache-2.0) - https://github.com/Mbed-TLS/mbedtls
-                      virtqueue, Bryan Venteicher (BSD-2-Clause) - https://cgit.freebsd.org/src/tree/sys/dev/virtio
-		      CMSIS (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0      
-		      lvgl (MIT) - https://github.com/lvgl/lvgl
-		      FreeRTOS (MIT) - https://github.com/FreeRTOS
-		      lodepng (zlib) - https://github.com/lvandeve/lodepng
-		      Monserrat Font (OFT) - https://github.com/JulietaUla/Montserrat
+                      CMSIS (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0   
+                      Mbed Crypto library v3.4.0 (Apache-2.0) - https://github.com/Mbed-TLS/mbedtls
+                      RPMsg-Lite V5.1.0 (BSD-3-Clause) - https://github.com/NXPmicro/rpmsg-lite
+                      virtqueue, Bryan Venteicher (BSD-2-Clause) - https://cgit.freebsd.org/src/tree/sys/dev/virtio    
+		      lvgl V8.3.2 (MIT) - https://github.com/lvgl/lvgl
+		      Monserrat Font (OFL-1.1) - https://github.com/JulietaUla/Montserrat
+		      Montserrat Medium font (OFL-1.1) - https://github.com/JulietaUla/Montserrat
+		      Antonio Regular Font (OFL-1.1) - https://www.fontsquirrel.com/
+		      Adventpro Regular Font (OFL-1.1) - https://www.fontsquirrel.com/
+                      
 		      
