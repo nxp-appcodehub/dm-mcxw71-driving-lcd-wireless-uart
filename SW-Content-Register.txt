@@ -9,11 +9,20 @@ Origin:               NXP (proprietary)
                       NXP (BSD-3-Clause)    
                       CMSIS (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0   
                       Mbed Crypto library v3.4.0 (Apache-2.0) - https://github.com/Mbed-TLS/mbedtls
+                      BLE_Controller
                       RPMsg-Lite V5.1.0 (BSD-3-Clause) - https://github.com/NXPmicro/rpmsg-lite
                       virtqueue, Bryan Venteicher (BSD-2-Clause) - https://cgit.freebsd.org/src/tree/sys/dev/virtio    
                       lvgl V8.3.2 (MIT) - https://github.com/lvgl/lvgl
                       Monserrat Medium font (OFL-1.1) - https://github.com/JulietaUla/Montserrat
                       Antonio Regular Font (OFL-1.1) - https://www.fontsquirrel.com/
                       Adventpro Regular Font (OFL-1.1) - https://www.fontsquirrel.com/
+
+Name:                 lib_ble_host_cm33_gcc.a
+Version:              1.9.13.0
+Outgoing license:     LA_OPT_Online Code Hosting NXP_Software_License - v1.2 October 2023
+License file:         license.txt
+Description:          Bluetooth low energy controller firmware library
+Origin:               NXP (Proprietary)
+                      NXP (BSD-3-Clause)
                       
 		      
