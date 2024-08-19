@@ -20,7 +20,7 @@ allows the user to interact with the device through a serial terminal and also i
 7. [Release Notes](#step7)
 
 ## 1. Software<a name="step1"></a>
-This code has been implemented using MCUXpresso IDE v11.10, FRDM-MCXW71 SDk v2.16.0, LVGL v8.3.2 and GUI Guider vX was used to generate the initial design. 
+This code has been implemented using MCUXpresso IDE v11.10, FRDM-MCXW71 SDk v2.16.0, LVGL v8.3.2 was used to generate the initial design. 
 
 #### Note: 
 *remember in order to use any wireless example in the MCXW71 you need to upload the NBU image. this image comes into the SDK version that you will use, in this case:*
