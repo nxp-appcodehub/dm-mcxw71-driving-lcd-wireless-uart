@@ -7,9 +7,8 @@ Description:          allows the user to interact with the device through a seri
 Release location:     https://github.com/nxp-appcodehub/dm-mcx-wireless-uart-leds
 Origin:               NXP (proprietary)
                       NXP (BSD-3-Clause)    
-                      CMSIS (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0   
+                      CMSIS V5.9.0 (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.9.0   
                       Mbed Crypto library v3.4.0 (Apache-2.0) - https://github.com/Mbed-TLS/mbedtls
-                      BLE_Controller (1.9.13.0)
                       RPMsg-Lite V5.1.0 (BSD-3-Clause) - https://github.com/NXPmicro/rpmsg-lite
                       virtqueue, Bryan Venteicher (BSD-2-Clause) - https://cgit.freebsd.org/src/tree/sys/dev/virtio    
                       lvgl V8.3.2 (MIT) - https://github.com/lvgl/lvgl
@@ -26,10 +25,18 @@ Origin:               NXP (Proprietary)
                       NXP (BSD-3-Clause)
                       
 
-Name:                 mcxw71_nbu_ble_1_9_14_0
+Name:                 mcxw71_nbu_ble_1_9_14_0.sb3
 Version:              1.9.14.0
 Outgoing license:     LA_OPT_Online Code Hosting NXP_Software_License - v1.2 October 2023
 License file:         license.txt
 Description:          Bluetooth low energy controller firmware library
 Origin:               NXP (Proprietary)
-                      NXP (BSD-3-Clause)		      
+                      NXP (BSD-3-Clause)	
+
+Name:                 mcxw71_nbu_ble_1_9_14_0.xip
+Version:              1.9.14.0
+Outgoing license:     LA_OPT_Online Code Hosting NXP_Software_License - v1.2 October 2023
+License file:         license.txt
+Description:          Bluetooth low energy controller firmware library
+Origin:               NXP (Proprietary)
+                      NXP (BSD-3-Clause)	      
