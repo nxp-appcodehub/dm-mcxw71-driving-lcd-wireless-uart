@@ -23,18 +23,9 @@ License file:         license.txt
 Description:          Bluetooth low energy controller firmware library
 Origin:               NXP (Proprietary)
                       NXP (BSD-3-Clause)
-                      
 
-Name:                 mcxw71_nbu_ble_1_9_14_0.sb3
-Version:              1.9.14.0
-Outgoing license:     LA_OPT_Online Code Hosting NXP_Software_License - v1.2 October 2023
-License file:         license.txt
-Description:          Bluetooth low energy controller firmware library
-Origin:               NXP (Proprietary)
-                      NXP (BSD-3-Clause)	
-
-Name:                 mcxw71_nbu_ble_1_9_14_0.xip
-Version:              1.9.14.0
+Name:                 mcxw71_nbu_ble_1_9_14_0.sb3, mcxw71_nbu_ble_1_9_14_0.xip
+Version:              1.9.13.0
 Outgoing license:     LA_OPT_Online Code Hosting NXP_Software_License - v1.2 October 2023
 License file:         license.txt
 Description:          Bluetooth low energy controller firmware library
