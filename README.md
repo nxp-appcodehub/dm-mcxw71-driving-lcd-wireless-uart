@@ -52,7 +52,7 @@ Once you have imported the Wireless UART example in your workspace, the next ste
 
 To integrate the OTAP cLVGL service in your application, you must import additional software that is not included in other SDK examples by default. This step enables you to locate the files that you must merge in your project to support the LVGL service in your application.
 
-<img src="images/folders1.png" width="500"/>
+!<img src="images/folders1.png" width="500"/>
 
 The folders and files that are in LVGL folders but not in Wireless UART, must be imported in your Wireless UART project. For instance, the following must be imported:
 
@@ -60,12 +60,12 @@ The folders and files that are in LVGL folders but not in Wireless UART, must be
 - board -> lvgl_support.h
 - board -> RTE_Device.h
 
-<img src="images/folders2.png" width="500"/>
+!<img src="images/folders2.png" width="500"/>
 
 - cmsis_drivers -> Driver_Common.h
 - cmsis_drivers -> Driver_SPI.h
 
-<img src="images/folders3.png" width="500"/>
+!<img src="images/folders3.png" width="500"/>
 
 - drivers -> fsl_edma.c
 - drivers -> fsl_edma.h
@@ -80,13 +80,13 @@ The folders and files that are in LVGL folders but not in Wireless UART, must be
 - drivers -> fsl_lpspi.c
 - drivers -> fsl_lpspi.h
 
-<img src="images/folders4.png" width="500"/>
+!<img src="images/folders4.png" width="500"/>
 
 - source -> lv_conf.h
 - source -> lvgl_demo_utils.c
 - source -> lvgl_demo_utils.h
 
-<img src="images/folders5.png" width="500"/>
+!<img src="images/folders5.png" width="500"/>
 
 Navigate to Project -> Properties in MCUXpresso IDE. Go to C/C++ Build ->
 Settings -> Tool Settings -> MCU C Compiler -> Includes. Click the icon next to the
@@ -108,11 +108,11 @@ Include paths textbox:
 "${workspace_loc:/${ProjName}/touchpanel}"
 ```
 
-<img src="images/includes1.png" width="700"/>
+!<img src="images/includes1.png" width="700"/>
 
 Also make sure that the LCD_ST7796S_IPS makro its set to 1: 
 
-<img src="images/includes2.png" width="700"/>
+!<img src="images/includes2.png" width="700"/>
 
 
 The following
@@ -388,27 +388,26 @@ The test case example, designed to demonstrate the LVGL integration in Testing t
 
 - Open the IoT Toolbox App and select the Wireless UART demo. Click the SCAN button to start scanning for a suitable advertiser.
 
-<img src="images/iottoolbox.png" width="300"/>
+!<img src="images/iottoolbox.png" width="300"/>
 
 - Create a connection with the NXP_WU device. Then, the wireless UART interface would be displayed on your smartphone.
 
-<img src="images/iottoolbox1.png" width="300"/>
+!<img src="images/iottoolbox1.png" width="300"/>
 
 - all the interactions that you have directly with the LCD display, it would be shown in the Wireless UART console.
 
-<img src="images/iottoolbox2.png" width="300"/>
+!<img src="images/iottoolbox2.png" width="300"/>
 
-<img src="images/display.png" width="400"/>
+!<img src="images/display.png" width="400"/>
 
-<img src="images/display1.png" width="400"/>
+!<img src="images/display1.png" width="400"/>
 
-<img src="images/display2.png" width="400"/>
+!<img src="images/display2.png" width="400"/>
 
 ## 5. FAQs<a name="step5"></a>
-*Include FAQs here if appropriate. If there are none, then remove this section.*
 
 ## 6. Support<a name="step6"></a>
-*Provide URLs for help here.*
+
 
 #### Project Metadata
 
