@@ -31,3 +31,5 @@ License file:         license.txt
 Description:          Bluetooth low energy controller firmware library
 Origin:               NXP (Proprietary)
                       NXP (BSD-3-Clause)	      
+
+

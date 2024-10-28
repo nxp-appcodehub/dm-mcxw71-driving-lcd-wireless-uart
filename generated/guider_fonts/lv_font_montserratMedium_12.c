@@ -1,15 +1,14 @@
 /*
 * Copyright 2011 The Montserrat Project Authors (
 https://github.com/JulietaUla/Montserrat)
-* All rights reserved.
+
 *
 * SPDX-License-Identifier: SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 */
 /*******************************************************************************
  * Size: 12 px
  * Bpp: 4
- * Opts: --user-data-dir=C:\Users\nxf93737\AppData\Roaming\gui-guider --app-path=C:\NXP\GUI-Guider-1.7.2-GA\resources\app.asar --no-sandbox --no-zygote --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1722265428122031 --launch-time-ticks=170382214611 --mojo-platform-channel-handle=2844 --field-trial-handle=1684,i,1262542490140581988,11766974026869225018,131072 --disable-features=SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
- ******************************************************************************/
+******************************************************************************/
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
 #include "lvgl.h"
