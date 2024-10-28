@@ -43,7 +43,7 @@ Import the project *"w_uart"* into MCUXpresso IDE by following the following sec
 ### Note:  
 *in order to see the Wireless UART on the IoT tool box change de GAP rol in the app: press SW4 and then SW2*
 
-<img src="images/wu1.png" width="700"/>
+!<img src="images/wu1.png" width="700"/>
 
 
 ### 3.2 Step 2
